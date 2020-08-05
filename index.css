@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	
+}
+.container{
+    height: 365px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    background: black;
+}
+
+.ketqua,.congthuc{
+    height: 50px;
+    color: white;
+    text-align: right;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+tr {
+    height: 50px;
+}
+
+
+td {
+    width: 70px;
+    text-align: center;
+    border: solid 1px white;
+    color: white;
+    background: gray;
+}
+td:hover{
+    background: #232020;
+}
